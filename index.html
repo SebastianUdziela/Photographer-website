@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie rekrutacyjne</title>
+    <link href="./dist/css/style.css" type="text/css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo_header">
+            <img src="./dist/images/logo.png" alt="logo">
+        </div>
+        <div class="nav_btn">
+            <span></span>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">O mnie</a>
+                </li>
+                <li>
+                    <a href="#">Współpraca</a>
+                </li>
+                <li>
+                    <a href="#">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#">Opinie</a>
+                </li>
+                <li>
+                    <a href="#">Kontakt</a>
+                </li>   
+            </ul>
+        </nav>
+        <div class="language_container">
+            <div class="field_wrapp">
+                <div class="language_field" id="div">
+                    <p>Pl</p><img src="./dist/images/flag_pl.png">
+                </div>
+                <img src="./dist/images/dropdown_arrow.png" alt="arrow">
+            </div>
+            <div class="language_select">
+                <ul>
+                    <li><p>Pl</p><img src="./dist/images/flag_pl.png"></li>
+                    <li><p>En</p><img src=""></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <section>
+                <div class="gallery_container">
+                    <div class="img_wrapper card_item_1">
+                        <img src="./dist/images/image_1.png" alt="boat">
+                    </div>
+                    <div class="img_wrapper card_item_2">
+                        <img src="./dist/images/image_2.png" alt="girl">
+                    </div>
+                    <div class="img_wrapper card_item_3">
+                        <img src="./dist/images/image_3.png" alt="meadow">
+                    </div>
+                    <div class="img_wrapper card_item_4">
+                        <img src="./dist/images/image_4.png" alt="girl">
+                    </div>
+                    <div class="img_wrapper card_item_5">
+                        <img src="./dist/images/image_5.png" alt="city">
+                    </div>
+                    <div class="img_wrapper card_item_6">
+                        <img src="./dist/images/image_6.png" alt="meat">
+                    </div>
+                    <div class="img_wrapper card_item_7">
+                        <img src="./dist/images/image_7.png" alt="chocolate">
+                    </div>
+                    <div class="img_wrapper card_item_8">
+                        <img src="./dist/images/image_8.png" alt="couple">
+                    </div>
+                    <div class="img_wrapper card_item_9">
+                        <img src="./dist/images/image_9.png" alt="girl">
+                    </div>
+                    <div class="img_wrapper card_item_10">
+                        <img src="./dist/images/image_10.png" alt="mountain">
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="profesion_container">
+                    <div class="icon_wrapper icon_card_1">
+                        <i class="icon icon-instax"></i>
+                    </div>
+                    <div class="icon_wrapper icon_card_2">
+                        <i class="icon icon-camera_2"></i>
+                    </div>
+                    <div class="icon_wrapper icon_card_3">
+                        <i class="icon icon-printer"></i>
+                    </div>
+                    <div class="icon_wrapper icon_card_4">
+                        <i class="icon icon-camera"></i>
+                    </div>
+                    <div class="icon_wrapper icon_card_5">
+                        <i class="icon icon-camera_3"></i>
+                    </div>
+                    <div class="icon_wrapper icon_card_6">
+                        <i class="icon icon-lens_2"></i>
+                    </div>
+                    <div class="icon_wrapper icon_card_7">
+                        <i class="icon icon-light"></i>
+                    </div>
+                    <div class="icon_wrapper icon_card_8">
+                        <i class="icon icon-trippod"></i>
+                    </div>
+                    <div class="icon_wrapper icon_card_9">
+                        <i class="icon icon-camera_4"></i>
+                    </div>
+                    <div class="icon_wrapper icon_card_10">
+                        <i class="icon icon-lens"></i>
+                    </div>
+                 </div>
+            </section>
+            <section>
+                <div class="contact_container">
+                    <form>
+                        <h2>Kontakt</h2>
+                        <div class="contact_wrapper">
+                            <div class="left_column">
+                                <div class="name_wrapper floating_label_field">
+                                    <input type="text" name="name" id="name" placeholder="Imię" />
+                                    <label for="name" >Imię</label>
+                                </div>
+                                <div class="email_wrapper floating_label_field">
+                                    
+                                    <input type="email" name="email" id="email" placeholder="Adres e-mail"/>
+                                    <label for="email">Adres e-mail</label>
+                                </div>
+                                <div class="person_wrapper">
+                                    <p>Jestem</p>
+                                    <label>
+                                        <input type="radio" name="person"> Klientem
+                                        <span></span>
+                                    </label>
+                                    <label>
+                                        <input type="radio" name="person"> Modelką
+                                        <span></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="right_column">
+                                <div class="topic_wrapper floating_label_field">
+                                    <select  id="topic" placeholder="wybierz">
+                                        <option value="" disabled selected></option>
+                                        <option value="Ślub">Ślub</option>
+                                        <option value="Chrzciny">Chrzciny</option>
+                                    </select>
+                                    <label for="topic">Wybierz temat</label>
+                                </div>
+                                <div class="text_wrapper floating_label_field">
+                                    <textarea  id="content" rows="4" placeholder="Treść wiadomości"></textarea>
+                                    <label for="content">Treść wiadomości</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="agreement">
+                         <label for="agree">
+                            <input type="checkbox" name="agreement" id="agree" checked> Wyrażam zgodę na przetwarzanie moich danych osobowych
+                            <span></span>
+                         </label>
+                        </div>
+                        <button>Wyslij Wiadomość</button>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="footer_container">
+            <div class="logo">
+                <img src="./dist/images/logo-footer.png" alt="logo">
+            </div>
+            <div class="social_icon">
+                <img src="./dist/images/facebook.png" alt="facebook">
+                <img src="./dist/images/twiter.png" alt="twiter">
+                <img src="./dist/images/instagram.png" alt="instagram">
+                <img src="./dist/images/be.png" alt="be">
+            </div>
+            <div class="newsletter">
+                <p>Tipy, techniki i nowości na rynku forograficznym</p>
+                <button class="btn_newsletter" > Newsletter</button>
+            </div>
+     </div>
+    </footer>
+    <script src="./dist/js/main.js"></script>
+</body>
+</html>
